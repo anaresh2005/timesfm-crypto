@@ -1,0 +1,33 @@
+[project]
+name = "timesfm-crypto"
+version = "0.1.0"
+description = "TimesFM Crypto 3/7/2024"
+authors = [
+    {name = "Aneesh Naresh",email = "an524@cornell.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "notebook (>=7.3.2,<8.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)",
+    "torchaudio (>=2.6.0,<3.0.0)",
+    "transformers (>=4.49.0,<5.0.0)",
+    "numpy (>=2.2.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "yfinance (>=0.2.54,<0.3.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "timesfm (>=1.2.9,<2.0.0)",
+    "jax (>=0.5.2,<0.6.0)",
+    "jaxlib (>=0.5.1,<0.6.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "times[torch] (>=0.7,<0.8)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
